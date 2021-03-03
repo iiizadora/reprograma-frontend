@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  font-size: 16px;
+}
+span,
+.sobre-mim__habilidades-titulo {
+  font-weight: 700;
+  color: #ffc75f;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+button > a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+button {
+  background: #845ec2;
+  border: 1px solid #845ec2;
+  border-radius: 5px;
+  margin-top: 30px;
+  padding: 8px 20px 8px 20px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  outline: none;
+}
+
+button:hover {
+  letter-spacing: 0.5px;
+  border: 1px solid #ffc75f;
+  background: #ffc75f;
+}
+
+.cabecalho {
+  text-align: center;
+  background-image: url("./img/header-2.png");
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+
+.cabecalho__titulo {
+  color: #845ec2;
+  font-size: 3rem;
+  margin-bottom: 25px;
+}
+
+.cabecalho__texto {
+  font-size: 1.6rem;
+}
+
+.destaque {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+
+.sobre-mim,
+.midias-sociais {
+  margin-top: 25px;
+  height: 450px;
+  display: flex;
+  align-items: center;
+}
+
+.display-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container__titulo {
+  color: #ffc75f;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.sobre-mim__titulo {
+  font-size: 3rem;
+  color: #ffc75f;
+  margin-bottom: 55px;
+}
+
+.sobre-mim__descricao,
+.sobre-mim__habilidades {
+  width: 40%;
+  line-height: 1.5;
+}
+
+.midias-sociais__container {
+  text-align: center;
+  width: 20%;
+  background-color: #845ec2;
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.2s ease;
+}
+
+.midias-sociais__container-img {
+  margin-top: 12px;
+  margin-bottom: 8px;
+  width: 50px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.midias-sociais__container:hover {
+  letter-spacing: 1px;
+  background: #ffc75f;
+}
+
+.midias-sociais__container-link {
+  color: white;
+  text-decoration: none;
+}
+
+.rodape__paragrafo {
+  text-align: center;
+  color: #868585;
+  margin-bottom: 30px;
+}
+
+/*Responsivo*/
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+@media (max-width: 320px) {
+  html {
+    font-size: 45.5%;
+  }
+}
